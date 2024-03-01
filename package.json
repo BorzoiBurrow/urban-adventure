@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "client": "webpack serve --config webpack.config.js --mode development --open",
-    "build": "webpack --config webpack.config.js --mode production",
+    "build": "babel src -d dist",
     "server": "node server/server.js"
   },
   "author": "",
@@ -13,5 +13,10 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.0",
+    "@babel/preset-env": "^7.24.0",
+    "@babel/preset-react": "^7.23.3"
   }
 }
