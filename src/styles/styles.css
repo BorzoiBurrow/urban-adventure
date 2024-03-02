@@ -1,0 +1,30 @@
+ /* just a quick color pallete to try and make the site more appealing. */
+ /* background colors to be #1E1E1E  */
+ /* text to be #FFFFFF */
+ /* accenting/other to be #3498DB */
+ * {
+    background-color: #1E1E1E;
+ }
+.header {
+    background-color: #1E1E1E; 
+    color: white; 
+    padding: 10px; 
+    text-align: center; 
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center; 
+  }
+  
+  li {
+    margin: 0 15px;
+    cursor: pointer;
+  }
+
+li:hover {
+    background-color: #1E1E1E; 
+    color: #3498DB; 
+  }
