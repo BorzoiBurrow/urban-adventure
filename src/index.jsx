@@ -1,5 +1,9 @@
-const React = require("react")
-const ReactDOM = require("react-dom")
-const App = require("./components/app")
+// importing react requirements.
+import React from 'react';
+import { createRoot } from 'react-dom/client';
+import App from './components/App'; 
 
-ReactDOM.render(<App />, document.getElementById('root'));
+
+const root = document.getElementById('root');
+const reactRoot = createRoot(root);
+reactRoot.render(<App />);

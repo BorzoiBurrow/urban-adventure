@@ -8,8 +8,8 @@ app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, '..', 'src/pages', 'index.html'));
   });
   
-app.get("/dist/scripts/index.js", (req,res) =>{
-  res.sendFile(path.join(__dirname, '..', "/dist/scripts", "index.js"))
+app.get("/dist/bundle.js", (req,res) =>{
+  res.sendFile(path.join(__dirname, '..', "/dist", "bundle.js"))
 })
 
 app.listen(PORT, () => {
