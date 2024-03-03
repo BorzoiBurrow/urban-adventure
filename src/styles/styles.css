@@ -2,33 +2,58 @@
  /* background colors to be #1E1E1E  */
  /* text to be #FFFFFF */
  /* accenting/other to be #3498DB */
- * {
-    background-color: #1E1E1E;
-    color: #FFFFFF;
- }
+
+/* Global styles */
+* {
+  background-color: #1E1E1E;
+  color: #FFFFFF;
+}
+
+/* Header styles */
 .header {
-    background-color: #1E1E1E; 
-    color: #FFFFFF; 
-    padding: 10px; 
-    text-align: center; 
-  }
-  
-  ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: center; 
-  }
-  
-  li {
-    margin: 0 15px;
-    cursor: pointer;
-  }
+  background-color: #1E1E1E;
+  color: #FFFFFF;
+  padding: 10px;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  margin: 0 15px;
+  cursor: pointer;
+  font-size: 20px;
+}
 
 li:hover {
-    background-color: #1E1E1E; 
-    color: #3498DB; 
-  }
+  background-color: #1E1E1E;
+  color: #3498DB;
+}
+
 .active {
   color: #3498DB;
+  text-decoration: underline;
+}
+
+/* About section styles */
+.content-container {
+  max-width: 80%;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  margin-top: 3%;
+}
+
+p {
+  margin-top: 20px;
 }

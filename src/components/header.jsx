@@ -9,7 +9,7 @@ import Resume from './resume';
 // header will control the currently rendered elements beneath itself. 
 const Header = () => {
   const [activeButton, setActiveButton] = useState('About me');
-  const [content, setContent] = useState(null);
+  const [content, setContent] = useState(<About/>);
 
   const handleButtonClick = (btnText) => {
     setActiveButton(btnText);
