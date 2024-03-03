@@ -4,10 +4,11 @@
  /* accenting/other to be #3498DB */
  * {
     background-color: #1E1E1E;
+    color: #FFFFFF;
  }
 .header {
     background-color: #1E1E1E; 
-    color: white; 
+    color: #FFFFFF; 
     padding: 10px; 
     text-align: center; 
   }
@@ -28,3 +29,6 @@ li:hover {
     background-color: #1E1E1E; 
     color: #3498DB; 
   }
+.active {
+  color: #3498DB;
+}
