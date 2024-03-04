@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/styles.css';
-
+// links to be added beneath, maybe favico icons?
 const Portfolio = () => {
   return (
     <div className="portfolio-container">

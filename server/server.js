@@ -12,9 +12,7 @@ app.get("/dist/bundle.js", (req,res) =>{
   res.sendFile(path.join(__dirname, '..', "/dist", "bundle.js"))
 })
 
-app.get("/image/avatar.png", (req,res) =>{
-  res.sendFile(path.join(__dirname, '..', "/src/images", "avatar.png"))
-})
+app.use('/image', express.static(path.join(__dirname, "..", 'src/images')));
 
 app.listen(PORT, () => {
     console.log(`Server is running on http://localhost:${PORT}`);
