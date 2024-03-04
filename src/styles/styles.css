@@ -77,3 +77,39 @@ p {
   height: auto;
   margin: 0;
 }
+
+/* Contact section styles */
+.contact-container {
+  max-width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.form-field {
+  margin-bottom: 20px;
+}
+
+.form-field label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-field input,
+.form-field textarea {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 2px solid #3498DB;
+  border-radius: 8px;
+}
+
+.form-field.required input,
+.form-field.required textarea {
+  border: 2px solid rgba(255, 0, 0, 0.705);
+}
+#submitContact{
+  border-radius: 12px;
+  border: 3px solid #3498DB;
+  background-color: #3498DB;
+  font-size: 24px;
+}
