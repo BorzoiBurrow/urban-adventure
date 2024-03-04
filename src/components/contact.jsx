@@ -29,7 +29,7 @@ const Contact = () => {
     }));
   };
 
-  const handleSubmit = (e) => {
+  const Submit = (e) => {
     e.preventDefault();
     const RequiredEmpty = Object.values(formData).some((value) => value.trim() === '');
     if (RequiredEmpty) {
@@ -41,8 +41,7 @@ const Contact = () => {
 
   return (
     <div className="contact-container">
-      <h2>Contact Section</h2>
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={Submit}>
         <div className={`form-field ${requiredFields.name ? 'required' : ''}`}>
           <label htmlFor="name">Name:</label>
           <input
