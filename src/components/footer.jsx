@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
 import '../styles/styles.css';
 
-const footer = () =>{
-    return <h2>Footer location test</h2>
+const Footer = () =>{
+    return (
+    <h2 id="footer">Footer location test</h2>
+    )
 }
 
-export default footer
+export default Footer;

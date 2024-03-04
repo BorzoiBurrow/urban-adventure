@@ -6,6 +6,7 @@ import About from './about';
 import Contact from './contact';
 import Portfolio from './portfolio';
 import Resume from './resume';
+import footer from './footer'
 // header will control the currently rendered elements beneath itself. 
 const Header = () => {
   const [activeButton, setActiveButton] = useState('About me');

@@ -114,3 +114,11 @@ p {
   background-color: #3498DB;
   font-size: 24px;
 }
+
+/* footer styles */
+.footer{
+  display: block;
+  width: auto;
+  height: 10%;
+  border: #3498DB;
+}
