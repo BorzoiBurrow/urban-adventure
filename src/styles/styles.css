@@ -58,3 +58,22 @@ img {
 p {
   margin-top: 20px;
 }
+
+/* Portfolio section styles */
+.portfolio-container {
+  max-width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.image-row {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px; 
+}
+
+.portimg {
+  max-width: 30%; 
+  height: auto;
+  margin: 0;
+}
