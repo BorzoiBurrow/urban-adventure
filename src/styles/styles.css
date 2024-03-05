@@ -137,3 +137,29 @@ p {
   font-size: 40px; 
   color: #3498DB; 
 }
+
+/* resume styles */
+
+.resumeText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px; 
+}
+
+.resumeText a {
+  color:#3498DB; 
+}
+.resumeText h3:hover {
+  color:#3498DB; 
+}
+
+.resumeText h3 {
+  margin-bottom: 10px; 
+  font-size: 24px;
+}
+
+.resumeText p {
+  margin-bottom: 10px;
+}
