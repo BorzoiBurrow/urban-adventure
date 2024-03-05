@@ -78,6 +78,8 @@ const Contact = () => {
         </div>
         <button id="submitContact" type="submit">Submit</button>
       </form>
+      <p>Alternatively, contact me directly at:
+      walbuunka@gmail.com</p>
     </div>
   );
 }
