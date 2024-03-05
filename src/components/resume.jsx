@@ -1,9 +1,12 @@
-import React, { useState } from 'react';
-import '../styles/styles.css';
+import React from 'react';
 
 const resume = () => {
-    return <h2>Resume Section</h2>
+
+  return (
+    <a href="/resume">
+      <h2>Click here to download a copy of my resume!</h2>
+    </a>
+  );
 }
 
-
-export default resume
+export default resume;

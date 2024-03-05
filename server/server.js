@@ -14,6 +14,20 @@ app.get("/dist/bundle.js", (req,res) =>{
 
 app.use('/image', express.static(path.join(__dirname, "..", 'src/images')));
 
+
+app.use('/assets', express.static(path.join(__dirname, "..", 'src/assets')));
+
+app.get('/resume', (req, res) => {
+  try {
+    const resumeFileName = 'resume.pdf';
+    const resumePath = path.join(__dirname, '..', 'src', 'assets', resumeFileName);
+
+    res.download(resumePath, resumeFileName);
+  } catch (error) {
+    console.log(error);
+  }
+});
+
 app.listen(PORT, () => {
     console.log(`Server is running on http://localhost:${PORT}`);
   });
