@@ -2,10 +2,10 @@
   "name": "urban-adventure",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/pages/index",
   "scripts": {
     "build": "babel src -d dist",
-    "webpack": "webpack --config webpack.config.js"
+    "webpack": "webpack --mode production"
   },
   "author": "",
   "license": "ISC",
