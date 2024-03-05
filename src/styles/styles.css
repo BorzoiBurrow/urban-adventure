@@ -116,9 +116,22 @@ p {
 }
 
 /* footer styles */
-.footer{
-  display: block;
-  width: auto;
-  height: 10%;
-  border: #3498DB;
+
+#footer {
+  text-align: center;
+  padding: 20px; 
+}
+
+.social-icons {
+  margin-top: 20px; 
+}
+
+.social-icons a {
+  display: inline-block;
+  margin: 0 10px; 
+}
+
+.social-icons i {
+  font-size: 24px; 
+  color: #3498DB; 
 }
