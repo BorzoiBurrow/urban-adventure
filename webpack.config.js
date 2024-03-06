@@ -41,6 +41,7 @@ module.exports = {
       patterns: [
         { from: "src/pages/index.html", to: "index.html" },
         { from: "src/images", to: "images" },
+        { from: "src/assets/resume.pdf", to: "resume.pdf" },
       ],
     }),    
   ],
