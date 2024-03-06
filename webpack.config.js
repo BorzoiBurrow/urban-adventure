@@ -32,7 +32,7 @@ module.exports = {
   plugins: [
     new CopyWebpackPlugin({
       patterns: [
-        { from: "/src/pages", to: "index.html" },
+        { from: "src/pages/index.html", to: "index.html" },
       ],
     }),
   ],
