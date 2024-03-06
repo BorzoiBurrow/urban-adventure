@@ -22,7 +22,7 @@ app.use('/assets', express.static(path.join(__dirname, '..', 'src/assets')));
 app.get('/resume', (req, res) => {
   try {
     const resumeFileName = 'resume.pdf';
-    const resumePath = path.join(__dirname, '..', 'src/assets', resumeFileName);
+    const resumePath = path.join(__dirname, resumeFileName);
 
     res.download(resumePath, resumeFileName);
   } catch (error) {
