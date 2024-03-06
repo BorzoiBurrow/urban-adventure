@@ -10,6 +10,11 @@ app.get('/', (req, res) => {
 
 app.use('/dist', express.static(path.join(__dirname, '..', 'dist')));
 
+app.get('/dist/bundle.js', (req, res) => {
+  res.sendFile(path.join(__dirname, '..', '/dist', 'bundle.js'));
+});
+
+
 app.use('/image', express.static(path.join(__dirname, '..', 'src/images')));
 
 app.use('/assets', express.static(path.join(__dirname, '..', 'src/assets')));
